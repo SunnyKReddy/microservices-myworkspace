@@ -1,0 +1,15 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+build:
+  version: "1.0"
+
+cards:
+  message: "Welcome to EazyBank CARDS related Prod APIs"
+  contactDetails:
+    name: "John Doe - Developer"
+    email: "john-cards@eazybank.com"
+  onCallSupport:
+    - (555) 555-5678
+    - (555) 523-5678

@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+build:
+  version: "1.0"
+
+loans:
+  message: "Welcome to EazyBank LOANS related Prod APIs"
+  contactDetails:
+    name: "John Doe - Developer"
+    email: "john-loans@eazybank.com"
+  onCallSupport:
+    - (555) 555-5678
+    - (555) 523-5678

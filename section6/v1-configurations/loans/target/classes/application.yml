@@ -1,0 +1,37 @@
+server:
+  port: 8090
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driverClassName: org.h2.Driver
+    username: sa
+    password: ''
+  h2:
+    console:
+      enabled: true
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  config:
+    import:
+      - "application_dev.yml"
+      - "application_qa.yml"
+      - "application_prod.yml"
+  profiles:
+    active: "prod"
+
+#Defalut configurations
+build:
+  version: "2.0"
+
+loans:
+  message: "Welcome to EazyBank LOANS related Eval APIs"
+  contactDetails:
+    name: "John Doe - Developer"
+    email: "john-loans@eazybank.com"
+  onCallSupport:
+    - (555) 555-3456
+    - (555) 523-3456

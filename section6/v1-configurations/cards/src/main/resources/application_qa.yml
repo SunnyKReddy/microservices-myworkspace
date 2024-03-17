@@ -1,0 +1,15 @@
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+build:
+  version: "3.0"
+
+cards:
+  message: "Welcome to EazyBank CARDS related QA APIs"
+  contactDetails:
+    name: "John Doe - Developer"
+    email: "john-cards@eazybank.com"
+  onCallSupport:
+    - (555) 555-2345
+    - (555) 523-2345

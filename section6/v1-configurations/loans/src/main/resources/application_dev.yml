@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "dev"
+
+build:
+  version: "4.0"
+
+loans:
+  message: "Welcome to EazyBank LOANS related Dev APIs"
+  contactDetails:
+    name: "John Doe - Developer"
+    email: "john-loans@eazybank.com"
+  onCallSupport:
+    - (555) 555-1234
+    - (555) 523-1234
